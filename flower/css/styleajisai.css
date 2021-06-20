@@ -1,0 +1,57 @@
+body{
+  background: rgb(248, 238, 240);
+}
+
+header > h1{
+  border-bottom: 2px solid #ddd;
+  padding: 30 auto;
+  text-align: center;
+  font-weight: 550;
+  font-size: 50px;
+}
+
+main > h1{
+  background: white;
+  border-radius: 4px;
+  margin: 20px auto;
+  width: 230px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
+
+p{
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.8;
+}
+
+div{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+li{
+  list-style: none;
+  /* text-align:justify; */
+  /* width: 40%; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer{
+  text-align: center;
+}
+
+footer > p{
+  color:rgb(131, 128, 128);
+}
+
+@media (max-width: 900px) {
+  main > p{
+    width: 80%;
+  }
+}
